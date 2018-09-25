@@ -1,0 +1,28 @@
+Command line:
+   gameLogic_db_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50644
+
+Thu Mar 15 11:05:51 2018
+
+
+ Elaboration Time: 0.078001 sec
+
+ Current Memory Usage: 829.223 Meg
+
+ Total Signals          : 39
+ Total Nets             : 62
+ Total Signal Drivers   : 23
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 27
+ Total Traceable Variables  : 39
+ Total Scalar Nets and Variables : 438
+
+ Total Simulation Time: 9.07926 sec
+
+ Current Memory Usage: 671.937 Meg
+
+Thu Mar 15 12:24:59 2018
+

@@ -1,0 +1,24 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/friends/MouseCat/top_db_isim_beh.exe -prj C:/friends/MouseCat/top_db_beh.prj work.top_db work.glbl 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/friends/MouseCat/scoreConverter.v" into library work
+Analyzing Verilog file "C:/friends/MouseCat/GameLogic.v" into library work
+Analyzing Verilog file "C:/friends/MouseCat/display.v" into library work
+Analyzing Verilog file "C:/friends/MouseCat/debouncer.v" into library work
+Analyzing Verilog file "C:/friends/MouseCat/comb.v" into library work
+Analyzing Verilog file "C:/friends/MouseCat/clockdiv.v" into library work
+Analyzing Verilog file "C:/friends/MouseCat/clock.v" into library work
+Analyzing Verilog file "C:/friends/MouseCat/top_fsm.v" into library work
+Analyzing Verilog file "C:/friends/MouseCat/top_db.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:267 - "C:/friends/MouseCat/top_db.v" Line 44: Cannot find port pause on this module
+ERROR:HDLCompiler:25 - "C:/friends/MouseCat/top_db.v" Line 47: Module <top_fsm> does not have a port named <pause>.
+WARNING:HDLCompiler:1016 - "C:/friends/MouseCat/top_db.v" Line 44: Port rightBtn is not connected to this instance
+WARNING:HDLCompiler:189 - "C:/friends/MouseCat/top_fsm.v" Line 177: Size mismatch in connection of port <onesDis>. Formal port size is 8-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:/friends/MouseCat/top_fsm.v" Line 178: Size mismatch in connection of port <tensDis>. Formal port size is 8-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:/friends/MouseCat/top_fsm.v" Line 179: Size mismatch in connection of port <hundredsDis>. Formal port size is 8-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:/friends/MouseCat/top_fsm.v" Line 180: Size mismatch in connection of port <thousandsDis>. Formal port size is 8-bit while actual signal size is 4-bit.
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed
